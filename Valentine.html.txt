@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Valentine 💖</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .box {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      color: #e60073;
+    }
+
+    button {
+      font-size: 18px;
+      padding: 10px 25px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .yes {
+      background: #ff4d88;
+      color: white;
+    }
+
+    .no {
+      background: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>Will you be my Valentine, Nayana? 💘</h1>
+    <button class="yes" onclick="yesClicked()">Yes ❤️</button>
+    <button class="no" onclick="noClicked()">No 💔</button>
+  </div>
+
+  <script>
+    function yesClicked() {
+      alert("Yaaay!!! 💕 I knew it 😍 Happy Valentine’s Day my love  ❤️");
+    }
+
+    function noClicked() {
+      alert("😢 Please reconsider… my heart is fragile 💔");
+    }
+  </script>
+
+</body>
+</html>
